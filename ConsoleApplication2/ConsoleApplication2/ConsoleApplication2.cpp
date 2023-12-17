@@ -1,6 +1,7 @@
 #include <iostream>
 #include <conio.h>
 #include <windows.h>
+#include <ctime>
 using namespace std;
 bool gameOver;
 const int width = 20;
@@ -137,7 +138,7 @@ int main()
         Draw();
         Input();
         Logic();
-        Sleep(10);
+        Sleep(100);
     }
     return 0;
 }
